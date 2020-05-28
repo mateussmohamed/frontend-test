@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <ProtectedLayout title={`Home - ${user.email}`}>
-      <Heading>Boas vendas!</Heading>
+      <Heading>Boas vendas! =)</Heading>
 
       <Button onClick={handleLogout} mt={4} minWidth={120}>
         Sair
