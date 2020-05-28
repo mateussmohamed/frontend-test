@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "@b8/modules/app";
+import App from "@b8/app";
 import * as serviceWorker from "./serviceWorker";
+
+import "react-toastify/dist/ReactToastify.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
   <React.StrictMode>
